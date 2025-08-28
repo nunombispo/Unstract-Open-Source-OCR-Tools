@@ -6,3 +6,6 @@ pypdfium2
 
 # Surya
 surya-ocr
+
+# Doctr
+python-doctr
