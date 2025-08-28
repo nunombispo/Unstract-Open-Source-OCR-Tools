@@ -1,0 +1,8 @@
+# EasyOCR requirements
+easyocr
+
+# PDF to image conversion
+pypdfium2
+
+# Surya
+surya-ocr
