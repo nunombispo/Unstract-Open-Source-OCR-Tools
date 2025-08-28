@@ -23,7 +23,8 @@ def process_pdf(pdf_path):
         predictions = recognition_predictor([image], det_predictor=detection_predictor)
         print(f"Page {i+1} OCR Results:")
         for prediction in predictions:
-            print(prediction.text)
+            for text_lines in prediction.text_lines:
+                print(text_lines.text)
 
     # Close the PDF
     pdf.close()
