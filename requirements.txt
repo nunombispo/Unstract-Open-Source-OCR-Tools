@@ -9,3 +9,6 @@ surya-ocr
 
 # Doctr
 python-doctr
+
+#Qwen2.5vl
+ollama
