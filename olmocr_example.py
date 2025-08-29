@@ -18,6 +18,7 @@ inputs = processor.apply_chat_template(
 	tokenize=True,
 	return_dict=True,
 	return_tensors="pt",
+    use_fast=True,
 ).to(model.device)
 
 outputs = model.generate(**inputs, max_new_tokens=40)
