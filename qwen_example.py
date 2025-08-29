@@ -24,8 +24,8 @@ def process_pdf(pdf_path):
     {
         'role': 'user',
         'content': """You are a helpful assistant that can extract text from a pdf file passed in as individual images. 
-                        Please extract the text from the images and return it in a structured format.
-        """,
+                        Please extract the text from the images and return it a way that the layout is preserved.
+                        """,
         'images': image_list
     },
     ])
