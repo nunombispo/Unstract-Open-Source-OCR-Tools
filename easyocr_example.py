@@ -3,7 +3,7 @@ import pypdfium2 as pdfium
 import sys
 
 # Create a reader object (multiple languages can be specified, and here it will run on CPU)
-reader = easyocr.Reader(['en'], gpu=False)
+reader = easyocr.Reader(['en'], gpu=True)
 
 # Process the pdf file
 def process_pdf(pdf_path):

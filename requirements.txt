@@ -10,5 +10,6 @@ surya-ocr
 # Doctr
 python-doctr
 
+#olmOcr
 #Qwen2.5vl
-ollama
+transformers
